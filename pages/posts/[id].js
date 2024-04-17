@@ -11,11 +11,7 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <section className={utilStyles.headingXl}>
-      <p>I'm who I am!</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://www.nextjs.cn/learn">our Next.js tutorial</a>.)
-        </p>
+      <p>Just do something changed!</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
